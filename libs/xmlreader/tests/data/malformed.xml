@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites>
+    <testsuite errors="0" failures="1" hostname="Greg-PC" name="pytest" skipped="0" tests="3"
+               time="0.283" timestamp="2020-05-16T11:26:03.289310">
+        <testcase classname="tests.record" file="tests\record.py" line="2" name="test_some_function" time="0.001">
+            <properties>
+                <property name="Test Case" value="C12346"/>
+            </properties>
+        </testcase>
+
+        <testcase classname="tests.record" file="tests\record.py" line="6" name="test_function" time="0.001">
+            <properties>
+                <property name="Test Case" value="C12346"/>
+            </properties>
+            <failure message="Failed: &lt;Failed instance&gt;">record_property = &lt;function record_property.&lt;locals&gt;.append_property at 0x00000231B5FEF310&gt;
+
+    def test_function(record_property):
+        record_property(&quot;Test Case&quot;, &quot;C12345&quot;)
+&gt;       pytest.fail()
+E       Failed: &lt;Failed instance&gt;
+
+record.py:9: Failed</failure
+        </testcase>
+            <testcase classname="tests.record" file="tests\record.py" line="10" name="test_not_recorded" time="0.001">
+        </testcase>
+    </testsuite></testsuites>
