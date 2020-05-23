@@ -1,0 +1,10 @@
+venv/
+tests/-c
+tests/.exe
+tests/echo
+tests/empty
+tests/files...
+tests/text
+tests/World
+.idea/
+**/__pycache__
