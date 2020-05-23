@@ -4,8 +4,8 @@
 
 import pytest
 from xml.dom.minidom import Element
-from venv.libs.xmlreader.xmlreader.junitxml import XmlFileParser
-from venv.libs.xmlreader.xmlreader.suites import Suites
+from libs.xmlreader.xmlreader.junitxml import XmlFileParser
+from libs.xmlreader.xmlreader.suites import Suites
 
 
 @pytest.mark.parametrize('filename,expected_count', [('./data/output.xml', 1), ('./data/multisuite.xml', 2)])
