@@ -5,7 +5,7 @@
 import pytest
 import xml.dom.minidom
 
-from libs.xmlreader.xml_reader.junitxml import XmlFileParser
+from libs.xmlreader.xmlreader.junitxml import XmlFileParser
 
 
 @pytest.mark.parametrize('filename', ['./data/output.xml', './data/multisuite.xml'])
