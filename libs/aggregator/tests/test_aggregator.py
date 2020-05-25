@@ -27,7 +27,6 @@ def test_aggregator(filename):
 
     tmp = aggregator.get_aggregated_result()
     for id in tmp:
-        print(tmp[id].passes/tmp[id].count)
         print(id, tmp[id].count, tmp[id].passes, tmp[id].error, tmp[id].fails, tmp[id].skip, tmp[id].warn,
-              1 - tmp[id].fails/tmp[id].count > tmp[id].threshold)
+              tmp[id].passes/tmp[id].count > tmp[id].threshold)
 

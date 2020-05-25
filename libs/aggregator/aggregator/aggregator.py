@@ -12,7 +12,7 @@ class Aggregator:
         self.results = {self.__no_case_id: StateCount(1.0)}
         self.results_iter = None
         self.__current = None
-
+        
     def case_states_aggregation(self, cases):
 
         for case in cases:
@@ -20,7 +20,7 @@ class Aggregator:
 
             if case_id != '':
                 if case_id not in self.results:
-                    self.results[case_id] = StateCount(0.8)
+                    self.results[case_id] = StateCount(1.0)
 
             error, fail, skip, warn = self.get_case_states(case)
             self.results[case_id].update(error, fail, skip, warn)
