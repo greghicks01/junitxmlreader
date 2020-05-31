@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites>
+    <testsuite errors="0" failures="0" hostname="Greg-PC" name="pytest" skipped="0" tests="26" time="0.252" timestamp="2020-05-31T09:50:20.981877">
+        <testcase classname="xmlreader.tests.test_case_properties" file="xmlreader\tests\test_case_properties.py" line="9" name="test_properties" time="0.014"><properties><property name="Test Case" value=""/></properties></testcase>
+        <testcase classname="xmlreader.tests.test_cases" file="xmlreader\tests\test_cases.py" line="7" name="test_cases_from_suite[./data/output.xml-10]" time="0.003"></testcase>
+        <testcase classname="xmlreader.tests.test_cases" file="xmlreader\tests\test_cases.py" line="7" name="test_cases_from_suite[./data/multisuite.xml-20]" time="0.004"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="10" name="test_open_good_xml[./data/output.xml]" time="0.003"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="10" name="test_open_good_xml[./data/multisuite.xml]" time="0.003"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="19" name="test_open_bad_xml[./data/empty.xml]" time="0.003"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="19" name="test_open_bad_xml[./data/malformed.xml]" time="0.001"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="27" name="test_open_filenotfound[n0]" time="0.001"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="27" name="test_open_filenotfound[o]" time="0.003"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="27" name="test_open_filenotfound[n1]" time="0.002"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="27" name="test_open_filenotfound[e]" time="0.000"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="27" name="test_open_filenotfound[x0]" time="0.001"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="27" name="test_open_filenotfound[i]" time="0.002"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="27" name="test_open_filenotfound[s]" time="0.002"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="27" name="test_open_filenotfound[t0]" time="0.001"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="27" name="test_open_filenotfound[a]" time="0.002"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="27" name="test_open_filenotfound[n2]" time="0.001"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="27" name="test_open_filenotfound[t1]" time="0.001"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="27" name="test_open_filenotfound[.]" time="0.000"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="27" name="test_open_filenotfound[x1]" time="0.001"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="27" name="test_open_filenotfound[m]" time="0.003"></testcase>
+        <testcase classname="xmlreader.tests.test_open_xml" file="xmlreader\tests\test_open_xml.py" line="27" name="test_open_filenotfound[l]" time="0.003"></testcase>
+        <testcase classname="xmlreader.tests.test_states" file="xmlreader\tests\test_states.py" line="50" name="test_states" time="0.007"></testcase>
+        <testcase classname="xmlreader.tests.test_suites" file="xmlreader\tests\test_suites.py" line="10" name="test_suite_count[./data/output.xml-1]" time="0.003"></testcase>
+        <testcase classname="xmlreader.tests.test_suites" file="xmlreader\tests\test_suites.py" line="10" name="test_suite_count[./data/multisuite.xml-2]" time="0.006"></testcase>
+        <testcase classname="xmlreader.tests.test_suites" file="xmlreader\tests\test_suites.py" line="26" name="test_suite" time="0.003"></testcase>
+    </testsuite>
+</testsuites>

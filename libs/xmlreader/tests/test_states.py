@@ -48,7 +48,8 @@ def get_case_states(case):
     return error, fail, skip, warn
 
 
-def test_states():
+def test_states(record_property):
+    record_property('Test Case', '')
 
     suites = Suites(XmlFileParser('./data/multisuite.xml').xml_doc)
     cases = case_builder(suites)

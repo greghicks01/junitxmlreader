@@ -9,7 +9,8 @@ from libs.xmlreader.xmlreader.junitxml import XmlFileParser
 
 
 @pytest.mark.parametrize('filename', ['./data/output.xml', './data/multisuite.xml'])
-def test_open_good_xml(filename):
+def test_open_good_xml(filename, record_property):
+    record_property('Test Case', '')
 
     junit_xml = XmlFileParser(filename)
 

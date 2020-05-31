@@ -17,8 +17,6 @@ class Suites:
 
     def next(self):
         next_value, self._current = self.__next_iter_value(self._iter, 'suites')
-        if not next_value:
-            print(f"No more suites found")
         return next_value
 
     def get_current(self):
