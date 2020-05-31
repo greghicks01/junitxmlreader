@@ -53,6 +53,7 @@ def test_failed_tag(record_property):
     record_property('Test Case', 'testfailed')
     pytest.fail()
 
+
 def test_bad_state(record_property):
     record_property('Test Case', 'bad state')
     print('test error')
